@@ -1,0 +1,36 @@
+{
+  "name": "buenos-codetags",
+  "version": "0.1.0-alpha",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buenos-jshint": "buenos-jshint",
+    "buenos-jscs": "buenos-jscs",
+    "lint": "npm run buenos-jshint && npm run buenos-jscs",
+    "prepacakge": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krekkied/buenos-codetags.git"
+  },
+  "author": "Gregory Cowan <g.cowan@amnzero.nl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krekkied/buenos-codetags/issues"
+  },
+  "homepage": "https://github.com/krekkied/buenos-codetags#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "extend": "^3.0.0",
+    "globby": "^3.0.1",
+    "mkdirp": "^0.5.1",
+    "q": "^1.4.1",
+    "sorted-object": "^1.0.0",
+    "up-the-tree": "^0.3.2"
+  },
+  "devDependencies": {
+    "buenos-jscs": "^1.0.0",
+    "buenos-jshint": "^1.0.0"
+  }
+}

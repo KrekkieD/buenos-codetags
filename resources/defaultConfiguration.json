@@ -1,0 +1,145 @@
+{
+    "tags": {
+        "TODO": {
+            "enabled": true,
+            "alias": [],
+            "disabled-alias": ["MILESTONE", "MLSTN", "DONE", "YAGNI", "TBD", "TOBEDONE"],
+            "description": "To do: Informal tasks/features that are pending completion.",
+            "color": "green"
+        },
+        "FIXME": {
+            "enabled": true,
+            "alias": ["XXX", "DEBUG"],
+            "disabled-alias": ["BROKEN", "REFACTOR", "REFACT", "RFCTR", "OOPS", "SMELL", "NEEDSWORK", "INSPECT"],
+            "description": "Fix me: Areas of problematic or ugly code needing refactoring or cleanup.",
+            "color": "red"
+        },
+        "BUG": {
+            "enabled": true,
+            "alias": ["BUGFIX"],
+            "disabled-alias": [],
+            "description": "Bugs: Reported defects tracked in bug database.",
+            "color": "yellow"
+        },
+        "NOBUG": {
+            "enabled": false,
+            "alias": ["NOFIX", "WONTFIX", "DONTFIX", "NEVERFIX", "UNFIXABLE", "CANTFIX"],
+            "disabled-alias": [],
+            "description": "Will Not Be Fixed: Problems that are well-known but will never be addressed due to design problems or domain limitations.",
+            "color": "white"
+        },
+        "REQ": {
+            "enabled": false,
+            "alias": ["REQUIREMENT", "STORY"],
+            "disabled-alias": [],
+            "description": "Requirements: Satisfactions of specific, formal requirements.",
+            "color": "white"
+        },
+        "RFE": {
+            "enabled": false,
+            "alias": ["FEETCH", "NYI", "FR", "FTRQ", "FTR"],
+            "disabled-alias": [],
+            "description": "Requests For Enhancement: Roadmap items not yet implemented.",
+            "color": "white"
+        },
+        "IDEA": {
+            "enabled": true,
+            "alias": [],
+            "disabled-alias": [],
+            "description": "Ideas: Possible RFE candidates, but less formal than RFE.",
+            "color": "green"
+        },
+        "???": {
+            "enabled": true,
+            "alias": ["QUESTION", "QUEST", "QSTN", "WTF"],
+            "disabled-alias": [],
+            "description": "Questions: Misunderstood details.",
+            "color": "magenta"
+        },
+        "!!!": {
+            "enabled": true,
+            "alias": ["ALERT"],
+            "disabled-alias": [],
+            "description": "Alerts: In need of immediate attention.",
+            "color": "red"
+        },
+        "HACK": {
+            "enabled": true,
+            "alias": ["CLEVER", "MAGIC"],
+            "disabled-alias": [],
+            "description": "Hacks: Temporary code to force inflexible functionality, or simply a test change, or workaround a known problem.",
+            "color": "cyan"
+        },
+        "PORT": {
+            "enabled": false,
+            "alias": ["PORTABILITY", "WKRD"],
+            "disabled-alias": [],
+            "description": "Portability: Workarounds specific to OS, Python version, etc.",
+            "color": "white"
+        },
+        "CAVEAT": {
+            "enabled": false,
+            "alias": ["CAV", "CAVT", "WARNING", "CAUTION"],
+            "disabled-alias": [],
+            "description": "Caveats: Implementation details/gotchas that stand out as non-intuitive.",
+            "color": "white"
+        },
+        "NOTE": {
+            "enabled": false,
+            "alias": ["HELP"],
+            "disabled-alias": [],
+            "description": "Notes: Sections where a code reviewer found something that needs discussion or further investigation.",
+            "color": "white"
+        },
+        "FAQ": {
+            "enabled": false,
+            "alias": [],
+            "disabled-alias": [],
+            "description": "Frequently Asked Questions: Interesting areas that require external explanation.",
+            "color": "white"
+        },
+        "GLOSS": {
+            "enabled": false,
+            "alias": ["GLOSSARY"],
+            "disabled-alias": [],
+            "description": "Glossary: Definitions for project glossary.",
+            "color": "white"
+        },
+        "SEE": {
+            "enabled": false,
+            "alias": ["REF", "REFERENCE"],
+            "disabled-alias": [],
+            "description": "See: Pointers to other code, web link, etc.",
+            "color": "white"
+        },
+        "TODOC": {
+            "enabled": true,
+            "alias": ["DOCDO", "DODOC", "NEEDSDOC", "EXPLAIN", "DOCUMENT"],
+            "disabled-alias": [],
+            "description": "Needs Documentation: Areas of code that still need to be documented.",
+            "color": "yellow"
+        },
+        "CRED": {
+            "enabled": false,
+            "alias": ["CREDIT", "THANKS"],
+            "disabled-alias": [],
+            "description": "Credits: Accreditations for external provision of enlightenment.",
+            "color": "white"
+        },
+        "STAT": {
+            "enabled": false,
+            "alias": ["STATUS"],
+            "disabled-alias": [],
+            "description": "Status: File-level statistical indicator of maturity of this file.",
+            "color": "white"
+        },
+        "RVD": {
+            "enabled": false,
+            "alias": ["REVIEWED", "REVIEW"],
+            "disabled-alias": [],
+            "description": "Reviewed: File-level indicator that review was conducted.",
+            "color": "white"
+        }
+    },
+    "case-sensitive": false
+}
