@@ -67,10 +67,10 @@ $ npm run buenos-codetags
      */
     src: [
         './**/*.*',
-        '!./node_modules/**/*',
-        '!./reports/**/*',
-        '!./target/**/*',
-        '!./bower_components/**/*'
+        '!./**/node_modules/**/*',
+        '!./**/reports/**/*',
+        '!./**/target/**/*',
+        '!./**/bower_components/**/*'
     ],
         
     

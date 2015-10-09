@@ -19,10 +19,10 @@ var DEFAULT_CONFIG = {
     ],
     src: [
         './**/*.*',
-        '!./node_modules/**/*',
-        '!./reports/**/*',
-        '!./target/**/*',
-        '!./bower_components/**/*'
+        '!./**/node_modules/**/*',
+        '!./**/reports/**/*',
+        '!./**/target/**/*',
+        '!./**/bower_components/**/*'
     ]
 };
 

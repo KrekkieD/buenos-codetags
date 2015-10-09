@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+var path = require('path');
+new (require(path.resolve(__dirname,'..')))();

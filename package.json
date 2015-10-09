@@ -7,8 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "buenos-jshint": "buenos-jshint",
     "buenos-jscs": "buenos-jscs",
+    "buenos-codetags": "node index.js",
     "lint": "npm run buenos-jshint && npm run buenos-jscs",
     "prepacakge": "npm run lint"
+  },
+  "bin": {
+    "buenos-codetags": "bin/buenos-codetags"
   },
   "repository": {
     "type": "git",
@@ -24,6 +28,7 @@
     "colors": "^1.1.2",
     "extend": "^3.0.0",
     "globby": "^3.0.1",
+    "is-binary-path": "^1.0.1",
     "mkdirp": "^0.5.1",
     "q": "^1.4.1",
     "sorted-object": "^1.0.0",
