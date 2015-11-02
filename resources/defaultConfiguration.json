@@ -139,6 +139,13 @@
             "disabled-alias": [],
             "description": "Reviewed: File-level indicator that review was conducted.",
             "color": "white"
+        },
+        "TEMP": {
+            "enabled": false,
+            "alias": ["TMP", "DEV"],
+            "disabled-alias": [],
+            "description": "Temporary: Areas of code that are temporary and for development only.",
+            "color": "yellow"
         }
     },
     "case-sensitive": false
