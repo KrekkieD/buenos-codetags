@@ -141,7 +141,7 @@
             "color": "white"
         },
         "TEMP": {
-            "enabled": false,
+            "enabled": true,
             "alias": ["TMP", "DEV"],
             "disabled-alias": [],
             "description": "Temporary: Areas of code that are temporary and for development only.",
